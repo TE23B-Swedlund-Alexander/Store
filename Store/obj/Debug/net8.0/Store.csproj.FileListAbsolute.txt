@@ -1,0 +1,14 @@
+c:\Users\alexander.swedlund\New folder\Store\Store\bin\Debug\net8.0\Store.exe
+c:\Users\alexander.swedlund\New folder\Store\Store\bin\Debug\net8.0\Store.deps.json
+c:\Users\alexander.swedlund\New folder\Store\Store\bin\Debug\net8.0\Store.runtimeconfig.json
+c:\Users\alexander.swedlund\New folder\Store\Store\bin\Debug\net8.0\Store.dll
+c:\Users\alexander.swedlund\New folder\Store\Store\bin\Debug\net8.0\Store.pdb
+c:\Users\alexander.swedlund\New folder\Store\Store\obj\Debug\net8.0\Store.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\alexander.swedlund\New folder\Store\Store\obj\Debug\net8.0\Store.AssemblyInfoInputs.cache
+c:\Users\alexander.swedlund\New folder\Store\Store\obj\Debug\net8.0\Store.AssemblyInfo.cs
+c:\Users\alexander.swedlund\New folder\Store\Store\obj\Debug\net8.0\Store.csproj.CoreCompileInputs.cache
+c:\Users\alexander.swedlund\New folder\Store\Store\obj\Debug\net8.0\Store.dll
+c:\Users\alexander.swedlund\New folder\Store\Store\obj\Debug\net8.0\refint\Store.dll
+c:\Users\alexander.swedlund\New folder\Store\Store\obj\Debug\net8.0\Store.pdb
+c:\Users\alexander.swedlund\New folder\Store\Store\obj\Debug\net8.0\Store.genruntimeconfig.cache
+c:\Users\alexander.swedlund\New folder\Store\Store\obj\Debug\net8.0\ref\Store.dll
