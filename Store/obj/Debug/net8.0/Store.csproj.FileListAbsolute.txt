@@ -12,3 +12,4 @@ c:\Users\alexander.swedlund\New folder\Store\Store\obj\Debug\net8.0\refint\Store
 c:\Users\alexander.swedlund\New folder\Store\Store\obj\Debug\net8.0\Store.pdb
 c:\Users\alexander.swedlund\New folder\Store\Store\obj\Debug\net8.0\Store.genruntimeconfig.cache
 c:\Users\alexander.swedlund\New folder\Store\Store\obj\Debug\net8.0\ref\Store.dll
+c:\Users\alexander.swedlund\New folder\Store\Store\obj\Debug\net8.0\Store.sourcelink.json
