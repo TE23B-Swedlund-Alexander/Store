@@ -26,35 +26,42 @@ if (ageNum <= 18)
 
 while (money > 0 && ageNum > 18)
 {
+    
+        
     Console.WriteLine($"you have {money} monies");
     Console.WriteLine("what do you want to buy");
     Console.WriteLine("candy 5 mony,chips 25 mony or soda 10 mony or maybe you want a silencer for 500 monies");
     string purchase = Console.ReadLine();
-    if (purchase == "candy" && money > 4)
+    Console.WriteLine("how many");
+string howMany = Console.ReadLine();
+int purchaseAmount = 0;
+ int.TryParse(howMany, out purchaseAmount);
+    if (purchase == "candy" && money >= 5*purchaseAmount)
     {
-        money = money - 5;
+
+        money = money - 5*purchaseAmount;
         Console.WriteLine("you have more candy now :D");
 
     }
-    if (purchase == "chips" && money > 24)
+   else if (purchase == "chips" && money >= 25*purchaseAmount)
     {
-        money = money - 25;
+        money = money - 25*purchaseAmount;
         Console.WriteLine("you have more chips now :D");
 
     }
-    if (purchase == "soda" && money > 9)
+    else if (purchase == "soda" && money >= 10*purchaseAmount)
     {
-        money = money - 10;
+        money = money - 10*purchaseAmount;
         Console.WriteLine("you have more soda now :D");
 
     }
-    if (purchase == "silencer" && money > 499)
+   else if (purchase == "silencer" && money >= 500*purchaseAmount)
     {
-        money = money - 500;
+        money = money - 500*purchaseAmount;
         Console.WriteLine("you have a fucking silencer now :O");
 
     }
-    if (purchase == "wanna bet")
+    else if (purchase == "wanna bet")
     {
 
         Console.WriteLine("sure heads or tails");
@@ -63,12 +70,12 @@ while (money > 0 && ageNum > 18)
         if (flip == 1 && coin == "heads")
         {
             Console.WriteLine("you win");
-            money = money + money;
+            money = money + money*purchaseAmount;
         }
         else if (flip == 2 && coin == "tails")
         {
             Console.WriteLine("you win");
-            money = money + money;
+            money = money + money*purchaseAmount;
         }
         else
         {
@@ -76,12 +83,16 @@ while (money > 0 && ageNum > 18)
             money = 0;
         }
     }
+    else{
+        Console.WriteLine("you can not afford that");
+    }
     Console.WriteLine("do you want to continue your shopping");
     string leave = Console.ReadLine();
     if (leave == "no")
     {
 ageNum = 3;
     }
+    Console.WriteLine();
 }
 
 Console.WriteLine("it was nice having you, bye");
