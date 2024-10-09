@@ -1,5 +1,5 @@
 ﻿bool success = false;
-bool leave = false;
+
 int ageNum = 0;
 Random rnd = new Random();
 int money = rnd.Next(50, 100);
@@ -30,25 +30,25 @@ while (money > 0 && ageNum > 18)
     Console.WriteLine("what do you want to buy");
     Console.WriteLine("candy 5 mony,chips 25 mony or soda 10 mony or maybe you want a silencer for 500 monies");
     string purchase = Console.ReadLine();
-    if (purchase == "candy")
+    if (purchase == "candy" && money > 4)
     {
         money = money - 5;
         Console.WriteLine("you have more candy now :D");
 
     }
-    if (purchase == "chips")
+    if (purchase == "chips" && money > 24)
     {
         money = money - 25;
         Console.WriteLine("you have more chips now :D");
 
     }
-    if (purchase == "soda")
+    if (purchase == "soda" && money > 9)
     {
         money = money - 10;
         Console.WriteLine("you have more soda now :D");
 
     }
-    if (purchase == "silencer")
+    if (purchase == "silencer" && money > 499)
     {
         money = money - 500;
         Console.WriteLine("you have a fucking silencer now :O");
@@ -76,7 +76,12 @@ while (money > 0 && ageNum > 18)
             money = 0;
         }
     }
-
+    Console.WriteLine("do you want to continue your shopping");
+    string leave = Console.ReadLine();
+    if (leave == "no")
+    {
+ageNum = 3;
+    }
 }
 
 Console.WriteLine("it was nice having you, bye");

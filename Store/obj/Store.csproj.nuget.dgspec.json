@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alexander.swedlund\\New folder\\Store\\Store\\Store.csproj": {}
+    "c:\\Users\\alexander.swedlund\\New folder\\Store\\Store\\Store.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alexander.swedlund\\New folder\\Store\\Store\\Store.csproj": {
+    "c:\\Users\\alexander.swedlund\\New folder\\Store\\Store\\Store.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexander.swedlund\\New folder\\Store\\Store\\Store.csproj",
+        "projectUniqueName": "c:\\Users\\alexander.swedlund\\New folder\\Store\\Store\\Store.csproj",
         "projectName": "Store",
-        "projectPath": "C:\\Users\\alexander.swedlund\\New folder\\Store\\Store\\Store.csproj",
+        "projectPath": "c:\\Users\\alexander.swedlund\\New folder\\Store\\Store\\Store.csproj",
         "packagesPath": "C:\\Users\\alexander.swedlund\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexander.swedlund\\New folder\\Store\\Store\\obj\\",
+        "outputPath": "c:\\Users\\alexander.swedlund\\New folder\\Store\\Store\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
